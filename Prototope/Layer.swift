@@ -787,7 +787,7 @@ public class Layer: Equatable {
 
 	// MARK: UIKit mapping
 
-	var view: SystemView
+	public var view: SystemView
 	private var layer: CALayer {
 		#if os(iOS)
 		return view.layer

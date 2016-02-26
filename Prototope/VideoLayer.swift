@@ -26,7 +26,7 @@ public class VideoLayer: Layer {
 	}
 	
 	
-	private var playerLayer: AVPlayerLayer {
+	public var playerLayer: AVPlayerLayer {
 		return (self.view as! VideoView).layer as! AVPlayerLayer
 	}
 	
